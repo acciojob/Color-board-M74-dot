@@ -1,4 +1,3 @@
-//your JS code here. If required.
 // script.js
 document.addEventListener('DOMContentLoaded', function() {
     const board = document.getElementById('board');
@@ -19,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function removeColor(element) {
         setTimeout(() => {
-            element.style.backgroundColor = '#ccc';
+            element.style.backgroundColor = 'rgb(29, 29, 29)';
         }, 1000);
     }
 
